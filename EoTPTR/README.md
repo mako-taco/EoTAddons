@@ -1,4 +1,4 @@
-# ptr
+# EoTPTR
 ## A collection of commands to assist in PTR practice
 
 `/ptr`
