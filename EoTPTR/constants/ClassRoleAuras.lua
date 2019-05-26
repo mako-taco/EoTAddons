@@ -17,7 +17,9 @@ EOT_ClassRoleAuras = {
                 auras.misc.blackLabel,
                 auras.scrolls.protection,
             },
-            flasked = {}
+            flasked = {
+                auras.flasks.titans
+            }
         },
         ["DPS"] = {
             trash = {
@@ -43,7 +45,9 @@ EOT_ClassRoleAuras = {
                 auras.food.nightfin,
                 auras.misc.blackLabel,
             },
-            flasked = {}
+            flasked = {
+                auras.flasks.power
+            }
         }
     },
     ["HUNTER"] = {
@@ -72,7 +76,9 @@ EOT_ClassRoleAuras = {
                 auras.food.nightfin,
                 auras.misc.blackLabel,
             },
-            flasked = {}
+            flasked = {
+                auras.flasks.power
+            }
         }
     },
     ["ROGUE"] = {
@@ -104,7 +110,9 @@ EOT_ClassRoleAuras = {
                 auras.misc.crystalWard,
                 auras.scrolls.protection,
             },
-            flasked = {}
+            flasked = {
+                auras.flasks.titans
+            }
         },
         ["DPS"] = {
             trash = {
@@ -127,7 +135,9 @@ EOT_ClassRoleAuras = {
                 auras.food.nightfin,
                 auras.misc.blackLabel,
             },
-            flasked = {}
+            flasked = {
+                auras.flasks.power
+            }
         },
         ["HEALS"] = {
             trash = {
@@ -138,7 +148,9 @@ EOT_ClassRoleAuras = {
                 auras.food.nightfin,
                 auras.misc.blackLabel,
             },
-            flasked = {}
+            flasked = {
+                auras.flasks.wisdom
+            }
         }
     },
     ["SHAMAN"] = {
@@ -163,15 +175,22 @@ EOT_ClassRoleAuras = {
                 auras.food.nightfin,
                 auras.misc.blackLabel,
             },
-            flasked = {}
+            flasked = {
+                auras.flasks.power
+            }
         },
         ["HEALS"] = {
             trash = {
                 auras.pots.sages,
                 auras.pots.arcane
             },
-            boss = {},
-            flasked = {}
+            boss = {
+                auras.food.nightfin,
+                auras.misc.blackLabel
+            },
+            flasked = {
+                auras.flasks.wisdom
+            }
         }
     },
     ["PRIEST"] = {
@@ -185,7 +204,9 @@ EOT_ClassRoleAuras = {
                 auras.food.nightfin,
                 auras.misc.blackLabel,
             },
-            flasked = {}
+            flasked = {
+                auras.flasks.power
+            }
         },
         ["HEALS"] = {
             trash = {
@@ -196,7 +217,9 @@ EOT_ClassRoleAuras = {
                 auras.food.nightfin,
                 auras.misc.blackLabel,
             },
-            flasked = {}
+            flasked = {
+                auras.flasks.wisdom
+            }
         }
     }
 }

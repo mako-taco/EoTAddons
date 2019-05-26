@@ -4,7 +4,7 @@ SlashCmdList["PTR"] = function (message)
 
   if parsed[1] == nil then
     EOT_Log("/ptr")
-    EOT_Log("  buff - Buff the current target. Hold shift for offspec")
+    EOT_Log("  buff - Buff the current target. Hold ctrl for offspec")
     EOT_Log("  wipe - Wipe your group quickly")
     EOT_Log("  res - Revive/reset health/mana of your group")
     EOT_Log("  gather - Ports your entire group to you")

@@ -24,14 +24,13 @@ local function GetAuras(level, targetClass, offspec)
     end
 
     local levels = {
-        EOT_Auras.buffs,
         possibleAuras.trash, 
         possibleAuras.boss, 
         possibleAuras.flasked
     }
 
-    for i=1,min(level + 1, table.getn(levels)) do
-        allBuffs = EOT_MergeTables(allBuffs, levels[i])
+    for i=1,level + 1 do
+        allBuffs = EOT_MergeITables(allBuffs, levels[i])
     end
     
     return allBuffs
@@ -55,7 +54,7 @@ function EOT_BuffCurrentTarget(level)
         GetAuras(
             level, 
             targetClass,
-            IsShiftKeyDown()
+            IsControlKeyDown()
         )
     )
 end

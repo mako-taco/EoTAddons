@@ -4,3 +4,10 @@ function EOT_MergeTables(target, ...)
     end
     return target
 end
+
+function EOT_MergeITables(target, ...)
+    for _, t in ipairs(arg) do
+        for _, v in pairs(t) do table.insert(target, v) end
+    end
+    return target
+end

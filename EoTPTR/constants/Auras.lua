@@ -23,7 +23,7 @@ EOT_Auras = {
         nightfin = 18194,
     },
     misc = {
-        crystalWard = 11564,
+        crystalWard = 15233,
         blackLabel = 25804,
     },
     scrolls = {
@@ -35,5 +35,8 @@ EOT_Auras = {
         power = 16323
     },
     flasks = {
+        wisdom = 17627,
+        power = 17628,
+        titans = 17626
     }
 }
