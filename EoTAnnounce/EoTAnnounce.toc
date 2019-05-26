@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: EoTAnnounce
+## Author: Xvk
+## Version: 1.0.0
+## Dependencies: EoTUtils
+## Notes: Announce important spell hit/miss/resists
+
+EoTAnnounce.lua

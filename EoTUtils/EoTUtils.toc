@@ -1,0 +1,13 @@
+## Interface: 11200
+## Title: EoTUtils
+## Author: Xvk
+## Version: 1.0.0
+## Dependencies: EoTUtils
+## Notes: A collection of Lua utility functions 
+
+IO.lua
+ForEachGroupMember.lua
+GetRoleForClass.lua
+MergeTables.lua
+ParseCommand.lua
+RunCommand.lua
