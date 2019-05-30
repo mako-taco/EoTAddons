@@ -7,6 +7,7 @@
 
 IO.lua
 ForEachGroupMember.lua
+ForEachSavedInstance.lua
 GetRoleForClass.lua
 MergeTables.lua
 ParseCommand.lua

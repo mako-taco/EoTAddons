@@ -7,7 +7,7 @@ EOT_Auras = {
         int = 23028,
     },
     pots = {
-        fortitude = 3593,
+        fortitude = 21564,
         superiorDefense = 13445,
         sages = 17535,
         greaterFirepower = 26276,
@@ -15,6 +15,7 @@ EOT_Auras = {
         arcane = 17539,
         shadowPower = 11474,
         mongoose = 17538,
+        giftOfArthas = 11371,
     },
     food = {
         squid = 18192,

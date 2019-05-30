@@ -16,6 +16,7 @@ EOT_ClassRoleAuras = {
                 auras.misc.crystalWard,
                 auras.misc.blackLabel,
                 auras.scrolls.protection,
+                auras.pots.giftOfArthas
             },
             flasked = {
                 auras.flasks.titans
@@ -36,9 +37,6 @@ EOT_ClassRoleAuras = {
     ["MAGE"] = {
         ["CDPS"] = {
             trash = {
-                auras.pots.sages,
-                auras.pots.greaterFirepower,
-                auras.pots.frostPower,
                 auras.pots.arcane,
             },
             boss = {
@@ -54,7 +52,6 @@ EOT_ClassRoleAuras = {
         ["DPS"] = {
             trash = {
                 auras.pots.mongoose,
-                auras.pots.sages
             },
             boss = {
                 auras.food.squid,
@@ -67,9 +64,7 @@ EOT_ClassRoleAuras = {
     ["WARLOCK"] = {
         ["CDPS"] = {
             trash ={
-                auras.pots.sages,
                 auras.pots.arcane,
-                auras.pots.greaterFirepower,
                 auras.pots.shadowPower
             },
             boss = {
@@ -109,6 +104,7 @@ EOT_ClassRoleAuras = {
                 auras.misc.blackLabel,
                 auras.misc.crystalWard,
                 auras.scrolls.protection,
+                auras.pots.giftOfArthas
             },
             flasked = {
                 auras.flasks.titans
@@ -128,7 +124,6 @@ EOT_ClassRoleAuras = {
         },
         ["CDPS"] = {
             trash = {
-                auras.pots.sages,
                 auras.pots.arcane
             },
             boss = {
@@ -141,8 +136,6 @@ EOT_ClassRoleAuras = {
         },
         ["HEALS"] = {
             trash = {
-                auras.pots.sages,
-                auras.pots.arcane
             },
             boss = {
                 auras.food.nightfin,
@@ -168,7 +161,6 @@ EOT_ClassRoleAuras = {
         },
         ["CDPS"] = {
             trash = {
-                auras.pots.sages,
                 auras.pots.arcane,
             },
             boss = {
@@ -181,8 +173,6 @@ EOT_ClassRoleAuras = {
         },
         ["HEALS"] = {
             trash = {
-                auras.pots.sages,
-                auras.pots.arcane
             },
             boss = {
                 auras.food.nightfin,
@@ -196,7 +186,6 @@ EOT_ClassRoleAuras = {
     ["PRIEST"] = {
         ["CDPS"] = {
             trash = {
-                auras.pots.sages,
                 auras.pots.arcane,
                 auras.pots.shadowPower
             },
@@ -210,8 +199,6 @@ EOT_ClassRoleAuras = {
         },
         ["HEALS"] = {
             trash = {
-                auras.pots.sages,
-                auras.pots.arcane
             },
             boss = {
                 auras.food.nightfin,

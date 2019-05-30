@@ -55,8 +55,6 @@ local function GetMsgForSpell(msg)
 end
 
 local function HandleCombatEvent(event, msg)
-  EOT_Log("Got combat event.")
-  EOT_Log("  msg: " .. tostring(msg))
   local announcement = GetMsgForPhysical(msg) or GetMsgForSpell(msg)
   if announcement then 
     EOT_Say(announcement)
