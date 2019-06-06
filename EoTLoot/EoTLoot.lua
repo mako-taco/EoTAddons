@@ -25,7 +25,7 @@ function EOT_GetRosterAttendanceSlice()
   local lootRaid = EOT_Loot.raids[raidId]
 
   EOT_ForEachGroupMember(function (name)
-    if lootRaid[name] == nil
+    if lootRaid[name] == nil then
       lootRaid[name] = 0
     end
 
@@ -34,7 +34,7 @@ function EOT_GetRosterAttendanceSlice()
 end
 
 local function GetCurrentRaidId()
-  SetMapToCurrentZone()
+  SetMapToCurrentZone()  
 end
 
 local function 
