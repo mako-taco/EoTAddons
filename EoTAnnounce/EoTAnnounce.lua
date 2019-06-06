@@ -21,6 +21,7 @@ local physicalPatterns = {
   shieldBash = GetPatternsForPhysical("Shield Bash"),
   pummel = GetPatternsForPhysical("Pummel"),
   blind = GetPatternsForPhysical("Blind"),
+  gouge = GetPatternsForPhysical("Gouge"),
   kidneyShot = GetPatternsForPhysical("Kidney Shot"),
   cheapShot = GetPatternsForPhysical("Cheap Shot"),
 }
