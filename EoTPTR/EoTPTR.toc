@@ -8,6 +8,7 @@
 constants\Auras.lua
 constants\ClassRoleAuras.lua
 commands\target\BuffCurrentTarget.lua
+commands\target\SetPhase.lua
 commands\group\FastWipe.lua
 commands\group\GroupUp.lua
 commands\group\FullRes.lua

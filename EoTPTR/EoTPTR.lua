@@ -25,6 +25,9 @@ SlashCmdList["PTR"] = function (message)
     EOT_FullRes()
   elseif parsed[1] == "gather" then
     EOT_GroupUp()
+  elseif parsed[1] == "phase" then
+    EOT_Log("Setting phase for player to " .. parsed[2])
+    EOT_SetPhase(tonumber(parsed[2]))
   end
 end
 
