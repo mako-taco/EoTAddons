@@ -27,7 +27,7 @@ function EOT_GetBuffs(level, targetClass, offspec)
       possibleAuras.flasked
   }
 
-  for i=1,level + 1 do
+  for i=1,level do
       allBuffs = EOT_MergeITables(allBuffs, levels[i])
   end
   

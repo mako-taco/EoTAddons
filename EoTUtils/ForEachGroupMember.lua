@@ -7,13 +7,15 @@ function EOT_ForEachGroupMember(Fn)
     local prefix = UnitInRaid("player") ~= nil and "raid" or "party"
     local numGroupMembers = UnitInRaid("player") ~= nil and 40 or 5
 
-    Fn(UnitName("player"), UnitClass("player"))
+    local _, playerClass = UnitClass("player")
+    Fn(UnitName("player"), playerClass)
 
     for i = 1, numGroupMembers do
         local unit = prefix .. i
         local name = UnitName(unit)
         if name ~= nil and name ~= UnitName("player") then
-            result = Fn(name, UnitClass(unit))
+            local _, unitClass = UnitClass(unit)
+            local result = Fn(name, unitClass)
             if result == true then return end
         end
     end

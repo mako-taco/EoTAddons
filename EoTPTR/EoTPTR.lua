@@ -8,6 +8,8 @@ SlashCmdList["PTR"] = function (message)
     EOT_Log("  wipe - Wipe your group quickly")
     EOT_Log("  res - Revive/reset health/mana of your group")
     EOT_Log("  gather - Ports your entire group to you")
+    EOT_Log("  raidbuff - Buffs the entire group")
+    EOT_Log("  phase - Unlearns skills from later phases")
   elseif parsed[1] == "buff" then
     if parsed[2] == nil then
       EOT_Log("/ptr buff")
@@ -19,7 +21,15 @@ SlashCmdList["PTR"] = function (message)
       EOT_BuffTarget(tonumber(parsed[2]))
     end
   elseif parsed[1] == "raidbuff" then
-    EOT_BuffGroup(tonumber(parsed[2]))
+    if parsed[2] == nil then
+      EOT_Log("/ptr raidbuff")
+      EOT_Log("  0 - Castable buffs only")
+      EOT_Log("  1 - Trash consumes")
+      EOT_Log("  2 - Boss consumes")
+      EOT_Log("  3 - Boss consumes + flasks")
+    else
+      EOT_BuffGroup(tonumber(parsed[2]))
+    end
   elseif parsed[1] == "wipe" then
     EOT_WipeGroup() 
   elseif parsed[1] == "res" then
