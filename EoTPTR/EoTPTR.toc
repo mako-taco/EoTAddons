@@ -1,15 +1,18 @@
 ## Interface: 11200
 ## Title: EoTPTR
 ## Author: Xvk
-## Version: 1.0.0
+## Version: 1.1.0
 ## Dependencies: EoTUtils
 ## Notes: A collection of Lua functions to make PTR time easier
 
-constants\Auras.lua
-constants\ClassRoleAuras.lua
-commands\target\BuffCurrentTarget.lua
-commands\target\SetPhase.lua
-commands\group\FastWipe.lua
-commands\group\GroupUp.lua
-commands\group\FullRes.lua
+buffs\Auras.lua
+buffs\ClassRoleAuras.lua
+buffs\GetBuffs.lua
+commands\target\BuffTarget.lua
+commands\target\SetPhaseTarget.lua
+commands\group\BuffGroup.lua
+commands\group\WipeGroup.lua
+commands\group\GatherGroup.lua
+commands\group\ResGroup.lua
+commands\group\RepairGroup.lua
 EoTPTR.lua

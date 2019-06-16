@@ -1,4 +1,4 @@
-function EOT_FullRes()
+function EOT_ResGroup()
     EOT_ForEachGroupMember(
         function (name)
             EOT_RunCommand("revive", name)

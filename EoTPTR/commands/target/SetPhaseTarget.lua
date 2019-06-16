@@ -30,7 +30,7 @@ local unlearn = {
   }
 }
 
-function EOT_SetPhase(phase)
+function EOT_SetPhaseTarget(phase)
   for i,v in ipairs(unlearn[phase]) do
     EOT_RunCommand("unlearn", v)
   end

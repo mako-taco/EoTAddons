@@ -16,18 +16,20 @@ SlashCmdList["PTR"] = function (message)
       EOT_Log("  2 - Boss consumes")
       EOT_Log("  3 - Boss consumes + flasks")
     else
-      EOT_Log("Buffing @ level " .. parsed[2])
-      EOT_BuffCurrentTarget(tonumber(parsed[2]))
+      EOT_BuffTarget(tonumber(parsed[2]))
     end
+  elseif parsed[1] == "raidbuff" then
+    EOT_BuffGroup(tonumber(parsed[2]))
   elseif parsed[1] == "wipe" then
-    EOT_FastWipe() 
+    EOT_WipeGroup() 
   elseif parsed[1] == "res" then
-    EOT_FullRes()
+    EOT_ResGroup()
   elseif parsed[1] == "gather" then
-    EOT_GroupUp()
+    EOT_GatherGroup()
+  elseif parsed[1] == "repair" then
+    EOT_RepairGroup()
   elseif parsed[1] == "phase" then
-    EOT_Log("Setting phase for player to " .. parsed[2])
-    EOT_SetPhase(tonumber(parsed[2]))
+    EOT_SetPhaseTarget(tonumber(parsed[2]))
   end
 end
 
