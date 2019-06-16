@@ -8,7 +8,7 @@ EOT_Auras = {
     },
     pots = {
         fortitude = 21564,
-        superiorDefense = 13445,
+        superiorDefense = 11348,
         sages = 17535,
         greaterFirepower = 26276,
         frostPower = 21920,

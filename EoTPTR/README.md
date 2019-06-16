@@ -28,8 +28,11 @@ The following commands only work on EoT's forked vmangos core
 `/ptr repair`
 repairs group members gear
 
-`/ptr buffall <level>`
+`/ptr raidbuff <level>`
 smart buffs applied to the entire group, see `/ptr buff` for details
 
 `/ptr wipe`
 wipes the group instantly
+
+`/ptr cooldown`
+cools down the entire group

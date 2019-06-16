@@ -1,3 +1,9 @@
+local function DoBuffs(buffs)
+    for k,v in pairs(buffs) do
+        EOT_RunCommand("aura", v)
+    end
+end
+
 function EOT_BuffTarget(level)
     local _, targetClass = UnitClass("target")
     if targetClass == nil then
@@ -5,16 +11,10 @@ function EOT_BuffTarget(level)
     end
     
     DoBuffs(
-        EOT_GetAuras(
+        EOT_GetBuffs(
             level, 
             targetClass,
             IsControlKeyDown()
         )
     )
-end
-
-local function DoBuffs(buffs)
-    for k,v in pairs(buffs) do
-        EOT_RunCommand("aura", v)
-    end
 end
