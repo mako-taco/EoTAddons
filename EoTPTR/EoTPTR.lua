@@ -41,7 +41,7 @@ SlashCmdList["PTR"] = function (message)
   elseif parsed[1] == "phase" then
     EOT_SetPhaseTarget(tonumber(parsed[2]))
   elseif parsed[1] == "cooldown" then
-    EOT_GroupCooldown(0)
+    EOT_CooldownGroup(0)
   end
 end
 
