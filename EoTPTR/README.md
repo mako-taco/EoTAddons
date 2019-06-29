@@ -22,8 +22,8 @@ resurrects + fully heals the group
 `/ptr gather`
 ports all group members to you (don't need leader)
 
-## forked client ony
-The following commands only work on EoT's forked vmangos core
+## vmangos only
+The following commands only work on vmangos core
 
 `/ptr repair`
 repairs group members gear
