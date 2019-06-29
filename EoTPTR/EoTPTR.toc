@@ -11,6 +11,7 @@ buffs\GetBuffs.lua
 commands\group\BuffGroup.lua
 commands\group\CooldownGroup.lua
 commands\group\GatherGroup.lua
+commands\group\GodGroup.lua
 commands\group\RepairGroup.lua
 commands\group\ResGroup.lua
 commands\group\WipeGroup.lua

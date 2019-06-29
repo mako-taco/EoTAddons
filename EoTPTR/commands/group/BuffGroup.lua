@@ -22,3 +22,11 @@ function EOT_BuffGroup(level)
     end
   )
 end
+
+function EOT_AuraGroup(aura)
+  EOT_ForEachGroupMember(
+    function (name)
+      DoBuffs(name, {aura = aura})
+    end
+  )
+end
