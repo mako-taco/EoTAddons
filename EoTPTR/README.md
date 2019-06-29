@@ -36,3 +36,9 @@ wipes the group instantly
 
 `/ptr cooldown`
 cools down the entire group
+
+`/ptr aura <spellid>`
+apply the auras for a spell to the entire group
+
+`/ptr god <on,off>`
+toggles godmode for the entire group
