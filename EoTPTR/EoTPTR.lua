@@ -11,6 +11,7 @@ SlashCmdList["PTR"] = function (message)
     EOT_Log("  raidbuff - Buffs the entire group")
     EOT_Log("  phase - Unlearns skills from later phases")
     EOT_Log("  aura - place an aura on the entire group")
+    EOT_Log("  roster - creates a copyable list of the current raid members")
   elseif parsed[1] == "god" then
     if parsed[2] == "on" or parsed[2] == "off" then
       EOT_GodGroup(parsed[2])
@@ -53,9 +54,16 @@ SlashCmdList["PTR"] = function (message)
     EOT_SetPhaseTarget(tonumber(parsed[2]))
   elseif parsed[1] == "cooldown" then
     EOT_CooldownGroup(0)
+  elseif parsed[1] == "roster" then
+    EOT_PrintGroup()
   else
     EOT_Error("No such command:", parsed[1])
   end
 end
 
+EoTPTR = CreateFrame("Frame", nil, UIParent)
 EOT_Log("AddOn loaded. Type /ptr for help.")
+
+-- initialize default variables
+EoTPTR.frames = {}
+
