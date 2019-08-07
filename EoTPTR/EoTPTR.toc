@@ -14,6 +14,7 @@ commands\group\GatherGroup.lua
 commands\group\GodGroup.lua
 commands\group\RepairGroup.lua
 commands\group\ResGroup.lua
+commands\group\PrintGroup.lua
 commands\group\WipeGroup.lua
 commands\target\BuffTarget.lua
 commands\target\SetPhaseTarget.lua
