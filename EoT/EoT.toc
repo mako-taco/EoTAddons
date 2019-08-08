@@ -5,4 +5,5 @@
 ## Dependencies: EoTUtils
 ## Notes: EoT addon for guildies
 
-EoTLoot.lua
+CopyRoster.lua
+EoT.lua

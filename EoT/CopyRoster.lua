@@ -1,4 +1,4 @@
-function EOT_PrintGroup()
+function EOT_CopyRoster()
   -- Iterate over raid roster and concatenate to raidRoster string
   local raidRoster = ""
 

@@ -5,6 +5,7 @@
 ## Dependencies: EoTUtils
 ## Notes: A collection of Lua utility functions 
 
+CopyBox.lua
 IO.lua
 ForEachGroupMember.lua
 ForEachSavedInstance.lua

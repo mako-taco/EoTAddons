@@ -1,4 +1,4 @@
-SLASH_PTR1 = "/eot";
+SLASH_EOT1 = "/eot";
 SlashCmdList["EOT"] = function (message)
   local parsed = EOT_ParseCommand(message)
   if parsed[1] == nil then
@@ -6,7 +6,7 @@ SlashCmdList["EOT"] = function (message)
     EOT_Log("  roster - creates a copyable list of the current raid members")
     EOT_Log("  donations - accepts donations. only works near a mailbox")
   elseif parsed[1] == "roster" then
-    EOT_PrintGroup()
+    EOT_CopyRoster()
   elseif parsed[1] == "donations" then
     EOT_Log("Not yet implemented.")
   else
@@ -15,4 +15,3 @@ SlashCmdList["EOT"] = function (message)
 end
 
 EOT_Log("AddOn loaded. Type /eot for help.")
-

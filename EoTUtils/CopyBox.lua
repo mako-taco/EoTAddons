@@ -66,7 +66,7 @@ function EOT_CopyBox(text, selectAll)
     end)
   end
 
-  roster:SetText(raidRoster)
+  roster:SetText(text)
   if selectAll then
     roster:HighlightText()
   end
