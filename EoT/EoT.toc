@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: EoT
+## Author: Xvk
+## Version: 1.0.0
+## Dependencies: EoTUtils
+## Notes: EoT addon for guildies
+
+CopyRoster.lua
+EoT.lua

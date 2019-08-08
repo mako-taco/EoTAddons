@@ -1,9 +1,0 @@
-## Interface: 11200
-## Title: EoTLoot
-## Author: Xvk
-## Version: 1.0.0
-## Dependencies: EoTUtils
-## Notes: EoT Loot manager addon
-## SavedVariables: EOT_LootRaids
-
-EoTLoot.lua
