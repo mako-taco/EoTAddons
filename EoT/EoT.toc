@@ -1,4 +1,4 @@
-## Interface: 11200
+## Interface: 11302
 ## Title: EoT
 ## Author: Xvk
 ## Version: 1.0.0
