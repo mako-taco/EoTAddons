@@ -4,6 +4,11 @@
 ## Version: 1.0.0
 ## Dependencies: EoTUtils
 ## Notes: EoT addon for guildies
+## SavedVariablesPerCharacter: EpochToolsDB
 
-CopyRoster.lua
+embeds.xml
 EoT.lua
+Database.lua
+CopyRoster.lua
+CopyDonations.lua
+InsertDonations.lua
