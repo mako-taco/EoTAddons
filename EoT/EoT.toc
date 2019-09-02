@@ -1,9 +1,14 @@
-## Interface: 11200
+## Interface: 11302
 ## Title: EoT
 ## Author: Xvk
 ## Version: 1.0.0
-## Dependencies: EoTUtils
+## Dependencies: EoTUtils, Ace3, LibQTip-1.0, LibAbacus-3.0
 ## Notes: EoT addon for guildies
+## SavedVariablesPerCharacter: EpochToolsDB
 
-CopyRoster.lua
+libs\LibStub.lua
 EoT.lua
+Database.lua
+CopyRoster.lua
+CopyDonations.lua
+InsertDonations.lua
