@@ -17,14 +17,7 @@ function EOT_InsertDonations()
         for currentAttachIndex = 1, ATTACHMENTS_MAX_RECEIVE do
           local name, itemID, texture, count = GetInboxItem(currentInboxIndex, currentAttachIndex)
           if name then
-            local donationItemValue = "N/A"
-            
-            -- Look up item value from Prices DB 
-            for index, values in ipairs(EpochToolsDB.Prices) do 
-              if values.itemID == itemID then
-                donationItemValue = values.itemValue
-              end
-            end
+            local donationItemValue = tonumber(TSM_API.GetCustomPriceValue("dbmarket", "i:" .. itemID)) * count
 
             local donation = {
               Sender = donationSender,
